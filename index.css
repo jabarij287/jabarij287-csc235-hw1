@@ -1,0 +1,133 @@
+h1 {
+    text-align: center;
+    color: #0001f7;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 5px 2px black;
+    padding: 10px;
+    font-weight: 900;
+  }
+
+  body {
+    background-color: #abacef;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .center {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .image-container img {
+    max-width: 100px;
+  }
+
+  .button {
+     display: inline-block;
+      padding: 10px 0px;
+      background-color: #010165;
+      text-align: right;
+			color: white;
+      border-top-color: #0200ea;
+      border-top-width: 2px;
+      border-top-style: solid;
+			cursor: pointer;
+			font-size: 16px;
+      font-family: arial, sans-serif;
+			font-weight: bold;
+      width: 100%;
+      text-decoration: underline;
+  }
+
+  .button:hover {
+    background-color: purple;
+    color: white;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+}
+		.button:hover {
+			background-color: blue;
+			color: white;
+		}
+		.button.home:hover {
+			background-color: white;
+			color: blue;
+		}
+		img {
+			max-width: 100px;
+			border-radius: 10px;
+			
+		}
+       
+        .welcome{ 
+          display: inline-block;
+          padding: 5px 10px;
+          font-size: 15px;
+          letter-spacing: 5px;
+          font-family: serif;
+        }
+        .zz {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .zz img {
+          border: 4px solid green;
+        }
+.button-container{
+             display: flex;
+             flex-direction: column;
+             min-width: 144px;
+             border-width: 8px;
+             border-color: #010165;
+             border-style: dotted;
+}
+.wrapper{
+  width: 100%;
+}
+.jj{
+  background-color: #d2a5fe;
+  text-align: center;
+  padding: 10px;
+  width: fit-content;
+  margin-left: 70%;
+  border-width: 5px;
+  border-style: solid;
+  border-color:#010165;
+  font-size: 30px;
+  color: #0200ea;
+  font-family: monospace;
+  font-style: italic;
+  letter-spacing: 2px;
+  
+  
+}
+.footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  color: white;
+  margin: 16px;
+  text-decoration: underline;
+}
